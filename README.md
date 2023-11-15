@@ -43,16 +43,6 @@ Different models were used , each performing differently from the other one. The
 
 > <span style="color: blue">*Functional*</span>
 
-It correctly predicts 5510 wells as functional compared to (5424) that was previously predicted by our random forest classifer , (347) functional wells were predicted as functional needs repair compared to (363) and (595) functional wells were predicted as non functional compared to (665)
-
-> <span style="color: blue">*Functional Need Repair*</span>
-
-It predicted 371 wells as need repair compared to (364) , (367) as functional instead of need repair compared to (356) and (125) as non functional instead of need repair compared to (143)
-
-> <span style="color: blue">*Non Functional*</span>
-
-It correctly predicted (3603) wells as non_functional compared to (3582) , wrongly predicted (125) wells as need repair compared to (143) and wrongly predicted (849) wells as functional compared to (358)
-
 > <span style="color: blue">*Accuracy*</span>
 
 The accuracy is higher at 80%
@@ -91,11 +81,6 @@ More research could possibly bring up more features to add to the dataset or man
 >
  'voting_classifier_model.pkl' - model name
 
-## Visual representation of the features used in my modeling and their level of importance
-
-![Image Alt Text](pictures/importantfeatures.png)
-
-
 ## PREDICTIONS ON THE TEST DATA
 
 Loaded the cleaned test data which had been cleaned using the same exact steps that had been ussed on the training set data. Workings on the test data are in the ***cleaned_test_set_data.ipynb*** notebook
@@ -109,30 +94,30 @@ Used the saved model to make predictions on this cleaned data.
 
 
 
-From our observation, there are 8673 functional wells, 5380 non functional wells and 797 wells that needed repair.
+From our observation, there are 8730 functional wells, 5363 non functional wells and 757 wells that needed repair.
 
 > <span style="color: blue"> *Installers with the highest non functional wells*</span>
 
 
 
-![Image Alt Text](pictures/nonfunctionalinstallers.png)
+![Image Alt Text](pictures/nonfunctional.png)
 
 
 > <span style="color: blue">*Installers with the highest functional wells*</span>
 
 
-![Image Alt Text](output.png)
+![Image Alt Text](functional.png)
 
 
 1.Despite having the highest number of non_functional wells , DWE also has the highest number of functional wells.It is essential to investigate the causes of the high number of non-functional wells and consider improvements to installation and maintenance practices.
 
-2.The Government installer has a relatively high number of non-functional wells (267) compared to their functional wells (124). 
+2.The Government installer has a relatively high number of non-functional wells (272) compared to their functional wells (116). 
 
-3.RWE also has a relatively high number of non-functional wells (185) compared to functional ones (76). This indicates room for improvement in their well installations.
+3.RWE also has a relatively high number of non-functional wells (176) compared to functional ones (88). This indicates room for improvement in their well installations.
 
-4.Interpretation: KKKT has a relatively high count of functional wells(405), compared to the non functional (179) which is relatively okay.
+4.KKKT has a relatively high count of functional wells(437), compared to the non functional (160) which is relatively okay.
 
-5.Hesawa has more functional wells(152) compared to the non-functional ones(84), suggesting their effectiveness in providing reliable water sources.
+5.Hesawa has more functional wells(78) compared to the non-functional ones(57), suggesting their effectiveness in providing reliable water sources.
 
 > <span style="color: blue">*Water Quality Vs Well Functionality*</span>
 
