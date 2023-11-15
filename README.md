@@ -36,14 +36,7 @@ Different models were used , each performing differently from the other one. The
 
 ## Model interpratation comparing it to random forest classifier which was previously my best performing model
 >
-**Model 7** created through ensabling is the best performing model out of our 8 models with an accuracy of 80.
-***We will compare its performance with the random forest classifier which was previously our best performing model***
-
-> <span style="color: blue">*Functional*</span>
-
-> <span style="color: blue">*Accuracy*</span>
-
-The accuracy is higher at 80%
+**Model 7** created through ensabling is the best performing model out of our 8 models with an accuracy of 80 and an roc of 0.91.
 
 #### CHALLANGES FACED DURING MODELLING
 >
