@@ -91,7 +91,7 @@ From our observation, there are 8730 functional wells, 5363 non functional wells
 
 
 
-![Image Alt Text](pictures/nonfunctional.png)
+![Image Alt Text](nonfunctional.png)
 
 
 > <span style="color: blue">*Installers with the highest functional wells*</span>
